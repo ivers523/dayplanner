@@ -14,11 +14,11 @@ window.onload = function () {
     function colors() {
         for (i = 0; i < timeArray.length; i++) {
             if (hour < timeArray[i]) {
-                document.querySelector(".description").setAttribute("class", "past");
+                document.querySelector(".description").setAttribute("class", "future");
                 console.log("past");
 
             } else if (hour > timeArray[i]) {
-                document.querySelector(".description").setAttribute("class", "future");
+                document.querySelector(".description").setAttribute("class", "past");
                 console.log("future");
 
             } else if (hour === timeArray[i]) {
