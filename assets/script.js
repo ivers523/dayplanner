@@ -13,7 +13,7 @@ window.onload = function () {
         const saveEl = document.getElementById("save1");
         saveEl.addEventListener("click", function () {
             const input = document.getElementById("event1").value;
-            localStorage.setItem("event1", JSON.stringify(input));
+            localStorage.setItem("event1", input);
 
         });
     };
@@ -22,7 +22,7 @@ window.onload = function () {
         const saveEl = document.getElementById("save2");
         saveEl.addEventListener("click", function () {
             const input = document.getElementById("event2").value;
-            localStorage.setItem("event2", JSON.stringify(input));
+            localStorage.setItem("event2", input);
 
         });
     };
@@ -31,7 +31,7 @@ window.onload = function () {
         const saveEl = document.getElementById("save3");
         saveEl.addEventListener("click", function () {
             const input = document.getElementById("event3").value;
-            localStorage.setItem("event3", JSON.stringify(input));
+            localStorage.setItem("event3", input);
 
         });
     };
@@ -40,7 +40,7 @@ window.onload = function () {
         const saveEl = document.getElementById("save4");
         saveEl.addEventListener("click", function () {
             const input = document.getElementById("event4").value;
-            localStorage.setItem("event4", JSON.stringify(input));
+            localStorage.setItem("event4",input);
 
         });
     };
@@ -49,7 +49,7 @@ window.onload = function () {
         const saveEl = document.getElementById("save5");
         saveEl.addEventListener("click", function () {
             const input = document.getElementById("event5").value;
-            localStorage.setItem("event5", JSON.stringify(input));
+            localStorage.setItem("event5", input);
 
         });
     };
@@ -58,7 +58,7 @@ window.onload = function () {
         const saveEl = document.getElementById("save6");
         saveEl.addEventListener("click", function () {
             const input = document.getElementById("event6").value;
-            localStorage.setItem("event6", JSON.stringify(input));
+            localStorage.setItem("event6", input);
 
         });
     };
@@ -67,7 +67,7 @@ window.onload = function () {
         const saveEl = document.getElementById("save7");
         saveEl.addEventListener("click", function () {
             const input = document.getElementById("event7").value;
-            localStorage.setItem("event7", JSON.stringify(input));
+            localStorage.setItem("event7", input);
 
         });
     };
@@ -76,7 +76,7 @@ window.onload = function () {
         const saveEl = document.getElementById("save8");
         saveEl.addEventListener("click", function () {
             const input = document.getElementById("event8").value;
-            localStorage.setItem("event8", JSON.stringify(input));
+            localStorage.setItem("event8", input);
 
         });
     };
